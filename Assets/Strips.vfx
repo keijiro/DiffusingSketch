@@ -19,7 +19,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2662
     y: 598
-    width: 2469
+    width: 2468
     height: 2966
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -31,7 +31,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d4c867f6b72b714dbb5fd1780afe208, type: 3}
-  m_Name: VFX
+  m_Name: Strips
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
@@ -74,7 +74,7 @@ VisualEffectResource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VFX
+  m_Name: Strips
   m_Graph: {fileID: 114350483966674976}
   m_Infos:
     m_RendererSettings:
@@ -288,7 +288,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 20
+      m_SerializableObject: 40
     m_Space: -1
   m_Property:
     name: Rate
@@ -694,7 +694,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614793}
   - {fileID: 8926484042661614827}
   dataType: 0
-  capacity: 128
+  capacity: 256
   stripCapacity: 1
   particlePerStripCount: 128
   needsComputeBounds: 0
@@ -2699,8 +2699,8 @@ MonoBehaviour:
   - {fileID: 8926484042661614898}
   dataType: 1
   capacity: 32768
-  stripCapacity: 128
-  particlePerStripCount: 256
+  stripCapacity: 256
+  particlePerStripCount: 128
   needsComputeBounds: 0
   boundsMode: 1
   m_Space: 0
@@ -2818,7 +2818,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 4
+      m_SerializableObject: 2
     m_Space: -1
   m_Property:
     name: Lifetime
@@ -3461,7 +3461,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.07
+      m_SerializableObject: 0.1
     m_Space: -1
   m_Property:
     name: Size
@@ -4292,7 +4292,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 4334, y: 2768}
+  m_UIPosition: {x: 4326, y: 2803}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -8286,7 +8286,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.650943398475647,"g":0.0,"b":0.0,"a":1.0},"time":0.5588311553001404},{"color":{"r":0.0,"g":0.9246256351470947,"b":1.0,"a":1.0},"time":0.8617685437202454},{"color":{"r":0.03456239774823189,"g":0.0,"b":0.16981130838394166,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":1}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.0,"g":0.07530125230550766,"b":0.23584908246994019,"a":1.0},"time":0.5353017449378967},{"color":{"r":0.18396228551864625,"g":1.0,"b":0.5839386582374573,"a":1.0},"time":0.7529411911964417},{"color":{"r":1.0,"g":0.0,"b":0.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":2}'
     m_Space: -1
   m_Property:
     name: Color

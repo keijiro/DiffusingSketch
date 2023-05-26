@@ -280,7 +280,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.2924528, g: 0.122774996, b: 0.122774996, a: 1}
+  m_BackGroundColor: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -485,10 +485,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _source: {fileID: 8400000, guid: 549475ece032e46b8bef096105f3e5d7, type: 2}
   _destination: {fileID: 8400000, guid: 94646367564874f2eb7a5f39590bb33d, type: 2}
-  _prompt: Detailed surreal masterpiece illustration of an exploding human by J. C. Leyendecker
-  _strength: 0.7
-  _stepCount: 8
-  _guidance: 14
+  _prompt: Illustration of lots of shiny fusing bubbles with shiny reflections
+  _strength: 0.56
+  _stepCount: 10
+  _guidance: 10
   _preprocessShader: {fileID: 7200000, guid: 7c06db8e339994c05bc2ad5e44c940de, type: 3}
 --- !u!1 &1371703176
 GameObject:
@@ -902,7 +902,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971468605}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: 510a4630e2a5646188f068bd80c0521f, type: 3}
+  m_Asset: {fileID: 8926484042661614526, guid: f2cc8e5779e8c4d468a71c4d5044ec3b, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
