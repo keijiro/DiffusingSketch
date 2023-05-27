@@ -485,10 +485,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _source: {fileID: 8400000, guid: 549475ece032e46b8bef096105f3e5d7, type: 2}
   _destination: {fileID: 8400000, guid: 94646367564874f2eb7a5f39590bb33d, type: 2}
-  _prompt: Illustration of lots of shiny fusing bubbles with shiny reflections
-  _strength: 0.56
+  _prompt: A colorful detailed surreal painting of people falling toward the exploding
+    heaven by J. C. Leyendecker
+  _strength: 0.78
   _stepCount: 10
-  _guidance: 10
+  _guidance: 12.4
   _preprocessShader: {fileID: 7200000, guid: 7c06db8e339994c05bc2ad5e44c940de, type: 3}
 --- !u!1 &1371703176
 GameObject:
@@ -970,7 +971,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2029884960}
-  m_LocalRotation: {x: -0.17364825, y: 0, z: 0, w: 0.9848078}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -978,4 +979,4 @@ Transform:
   - {fileID: 738161131}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -20, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
